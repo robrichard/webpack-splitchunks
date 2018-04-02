@@ -8,6 +8,7 @@ module.exports = {
         'entryB': './src/entryB.js'
     },
     output: {
+        filename: 'entry-[name].js',
         chunkFilename: 'chunk-[name].js'
     },
     optimization: {
